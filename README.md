@@ -1,85 +1,76 @@
-# Calculadora Simples em C
+# Calculadora Simples em Python
 
 <p align="center">
-  <img alt="Linguagem C" src="https://img.shields.io/badge/Linguagem-C-00599C?style=flat-square" />
-  <img alt="Programação estruturada" src="https://img.shields.io/badge/Paradigma-Estruturado-374151?style=flat-square" />
-  <img alt="Projeto de estudos" src="https://img.shields.io/badge/Tipo-Projeto%20de%20estudos-16A34A?style=flat-square" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img alt="Lógica de programação" src="https://img.shields.io/badge/Foco-Lógica%20de%20Programação-374151?style=flat-square" />
+  <img alt="Projeto de estudos" src="https://img.shields.io/badge/Tipo-Projeto%20de%20Estudos-16A34A?style=flat-square" />
 </p>
 
-Uma calculadora de terminal desenvolvida para praticar os fundamentos da **linguagem C**, com entrada de dados, operações aritméticas e estruturas de decisão.
+Calculadora simples desenvolvida em **Python** como exercício de lógica de programação, com entrada de dados pelo terminal, operações aritméticas e apresentação dos resultados ao usuário.
 
 ## Objetivo
 
-Aplicar a lógica de programação em um problema simples do cotidiano: ler dois números, receber a operação desejada e apresentar o resultado no terminal.
+Praticar conceitos fundamentais de Python por meio de uma aplicação de console que recebe valores, identifica a operação solicitada e calcula o resultado.
 
 ## Funcionalidades
 
-- Leitura do primeiro número e do segundo número.
-- Escolha da operação aritmética.
+- Entrada de valores numéricos pelo terminal.
 - Operações de **adição**, **subtração**, **multiplicação** e **divisão**.
-- Exibição do resultado no console.
-- Tratamento de opção de operação não reconhecida.
+- Exibição do resultado da operação escolhida.
+- Utilização de condições para direcionar a execução do cálculo.
+
+> **Nota:** confira se todas essas operações estão presentes na versão publicada do código. O repositório remoto não pôde ser inspecionado nesta revisão.
 
 ## Tecnologias e conceitos
 
 | Tecnologia / conceito | Aplicação no projeto |
 | --- | --- |
-| **C** | Implementação do programa |
+| **Python 3** | Linguagem de implementação |
 | **Entrada e saída** | Interação com o usuário pelo terminal |
-| **Operadores aritméticos** | Cálculos matemáticos |
-| **Estruturas condicionais** | Escolha da operação a executar |
-| **Variáveis** | Armazenamento de números, operação e resultado |
+| **Operadores aritméticos** | Realização dos cálculos |
+| **Estruturas condicionais** | Seleção da operação |
+| **Variáveis e tipos numéricos** | Armazenamento e processamento dos valores |
 
 ## Como executar
 
-**Requisito:** um compilador C, como o GCC.
+**Pré-requisito:** ter o [Python 3](https://www.python.org/downloads/) instalado.
 
-1. Clone o repositório:
+1. Clone o repositório e entre na pasta:
 
    ```bash
    git clone https://github.com/adolfo-araujo/Calculado-Simples.git
    cd Calculado-Simples
    ```
 
-2. Identifique o arquivo principal com extensão `.c` e compile-o. Exemplo, **substituindo `arquivo.c` pelo nome real**:
+2. Execute o arquivo principal com extensão `.py`:
 
    ```bash
-   gcc arquivo.c -o calculadora
+   python nome-do-arquivo.py
    ```
 
-3. Execute o programa:
+   Em alguns sistemas Linux/macOS, use `python3` no lugar de `python`.
 
-   **Linux / macOS**
+   **Substitua `nome-do-arquivo.py` pelo nome real do arquivo principal do repositório.**
 
-   ```bash
-   ./calculadora
-   ```
-
-   **Windows (PowerShell)**
-
-   ```powershell
-   .\calculadora.exe
-   ```
-
-## Fluxo da aplicação
+## Fluxo básico
 
 ```text
 Início
   ↓
-Ler primeiro número
+Informar valores
   ↓
-Escolher operação (+, -, *, /)
+Selecionar a operação
   ↓
-Ler segundo número
+Calcular o resultado
   ↓
-Calcular e apresentar o resultado
+Exibir o resultado no terminal
   ↓
 Fim
 ```
 
 ## Aprendizados
 
-O exercício ajuda a consolidar leitura de dados, cálculos, tomadas de decisão e organização de um programa de console. É um registro dos primeiros passos em programação e da evolução dos projetos desenvolvidos posteriormente.
+O projeto permite exercitar a sintaxe básica da linguagem Python, a manipulação de dados numéricos, a lógica condicional e a interação com o usuário no terminal.
 
 ## Autor
 
